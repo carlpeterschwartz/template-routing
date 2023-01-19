@@ -1,0 +1,7 @@
+{
+  "name": "template-routing",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
