@@ -1,3 +1,12 @@
+.menu{
+  --width:100%;
+  margin:0px 0px 0px 0px;
+}
+.close{
+  padding:0px 8px;
+  font-size: 30px;
+}
 .active-item {
-  border-left: 8px solid var(--ion-color-primary);
+  //border-left: 8px solid var(--ion-color-primary);
+  color: var(--ion-color-primary);
 }
