@@ -1,12 +1,21 @@
 .menu{
-  --width:100%;
-  margin:0px 0px 0px 0px;
+  --width:86%;
+  //margin:56px 0px 0px 0px;
+  margin-top: var(--menu-margin-top);
 }
+// ion-menu::part(backdrop) {
+//   background-color: rgba(255, 0, 255, 0.5);
+// }
+// ion-menu::part(container) {
+//   border-radius: 0 20px 20px 0;
+
+//   box-shadow: 4px 0px 16px rgba(255, 0, 255, 0.18);
+// }
 .close{
   padding:0px 8px;
   font-size: 30px;
 }
 .active-item {
-  //border-left: 8px solid var(--ion-color-primary);
+  border-left: 8px solid var(--ion-color-primary);
   color: var(--ion-color-primary);
 }
